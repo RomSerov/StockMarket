@@ -61,7 +61,7 @@ fun CompanyItem(
     }
 }
 
-@Preview(showBackground = true)
+@Preview(showBackground = false)
 @Composable
 private fun CompanyItemPreview() {
     StockMarketTheme {

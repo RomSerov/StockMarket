@@ -1,9 +1,9 @@
 package com.example.stockmarket.domain.model
 
 data class CompanyInfo(
-    val symbol: String? = null,
-    val description: String? = null,
-    val name: String? = null,
-    val country: String? = null,
-    val industry: String? = null
+    val symbol: String,
+    val description: String,
+    val name: String,
+    val country: String,
+    val industry: String
 )
